@@ -95,7 +95,7 @@ val messageAdapter = MessageAdapter(messageList = messageList, yourUserId = your
 ```Example Code in Kotlin
 val recyclerView : RecyclerView = findViewById(R.id.recyclerView)
 recyclerView.layoutManager = LinearLayoutManager(this)
-recyclerView.adapter = adapter
+recyclerView.adapter = messageAdapter
 ```
 
 ### 5. Add internet permission to download profile image from internet
