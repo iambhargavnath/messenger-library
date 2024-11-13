@@ -2,10 +2,14 @@
 This is a simple to implement Android Messenger UI.
 
 ## Screenshots
+<p>
 <img align="center" src="https://github.com/iambhargavnath/messenger-library/blob/master/Screenshot1.png" alt="Screenshot1" width="360"/>
 <img align="center" src="https://github.com/iambhargavnath/messenger-library/blob/master/Screenshot2.png" alt="Screenshot2" width="360"/>
+</p>
+<p>
 <img align="center" src="https://github.com/iambhargavnath/messenger-library/blob/master/Screenshot3.png" alt="Screenshot3" width="360"/>
 <img align="center" src="https://github.com/iambhargavnath/messenger-library/blob/master/Screenshot4.png" alt="Screenshot4" width="360"/>
+</p>
 
 ## Installation
 
