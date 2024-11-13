@@ -78,6 +78,11 @@ val messageList = listOf(
 ```
 Here `time` and `profilePicUrl` is nullable.
 
+Or you can retrieve messages from server and add to the `messageList`
+```
+val messageList: List<Message> = retrieveMessagesFromServer
+```
+
 ### 3. Add the Message List to MessageAdapter
 ```Example Code in Kotlin
 import com.iambhargavnath.messengerlibrary.adapter.MessageAdapter
