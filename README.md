@@ -80,7 +80,7 @@ Here `time` and `profilePicUrl` is nullable.
 
 Or you can retrieve messages from server and add to the `messageList`
 ```
-val messageList: List<Message> = retrieveMessagesFromServer
+val messageList: List<Message> = retrievedMessagesFromServer
 ```
 
 ### 3. Add the Message List to MessageAdapter
