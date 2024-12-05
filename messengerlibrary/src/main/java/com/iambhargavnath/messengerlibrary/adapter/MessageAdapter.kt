@@ -15,7 +15,8 @@ import com.squareup.picasso.Picasso
 
 class MessageAdapter (
     private val messageList: List<Message>,
-    private val yourUserId: String
+    private val yourUserId: String,
+    private val onLongClick: (Message) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     companion object {
@@ -70,6 +71,10 @@ class MessageAdapter (
         fun bind(message: Message) {
             messageView.text = message.content
             messageLayout.background = AppCompatResources.getDrawable(messageLayout.context, R.drawable.bg_chat_me)
+            messageLayout.setOnLongClickListener {
+                onLongClick(message)
+                true
+            }
         }
     }
 
