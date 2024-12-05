@@ -43,7 +43,9 @@ class MainActivity : AppCompatActivity() {
         )
 
         val yourUserId = "me"
-        val adapter = MessageAdapter(messageList = messages, yourUserId = yourUserId)
+        val adapter = MessageAdapter(messageList = messages, yourUserId = yourUserId, onLongClick = {
+
+        })
         recyclerView.adapter = adapter
 
         var shouldScrollToEnd = true

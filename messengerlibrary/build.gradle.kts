@@ -52,7 +52,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.iambhargavnath"
                 artifactId = "messengerlibrary"
-                version = "1.0.1"
+                version = "1.0.3"
             }
         }
     }
